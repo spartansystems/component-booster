@@ -47,6 +47,30 @@ yarn run test -- --watch
 yarn start
 ```
 
+## Component Naming Conventions
+
+Sometimes you end up with a ton of components and they become unruly and hard to find. Keeping them named and organized
+will speed up your ability to find exactly what it is you are looking for. As a recommendation for combatting this
+conundrum, here is a quick and easy way to name your components; we will have three categories:
+
+1. **Site Wide Components**
+  - The best examples to demonstrate site wide components are the site header and footer. Here is how we suggest naming:
+  - *SiteHeader*, *SiteFooter*
+  - Simply prepend the component name with "Site" if it meets the requirements.
+2. **Section Container Components**
+  - These components are essentially wrappers for content. Pass props to them for background colors, box model,
+  margins, etc. Here's a couple examples:
+  - *SectionFullWidth*, *SectionContainer*, etc.
+  - Simply prepend the component name with "Section" if it meets the requirements.
+3. **Content Components**
+  - These components are where 99% of content will live. You can nest them inside of Section Container Components to
+  prevent extra code from being written. Here's a couple examples:
+  - *ContentImage*, *ContentFullWidthText*, *ContentQuote*, etc.
+
+By following the above recommendations, your *Components* directory will be nice and organized by component type and then
+alphabetically within there. If this isn't your jam, then do what feels right — just make sure your naming conventions
+are easy enough to understand that you can hand them off to another without a taking a ton of time to explain where and why everything is located.
+
 ## Component Markup Guidelines
 
 To standardize the way are components are created for maximum reusability, try and stick as close to the following list
