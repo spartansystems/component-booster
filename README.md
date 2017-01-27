@@ -4,6 +4,15 @@ The purpose of this project is to enable rapid prototyping with pre-built
 components in combination with our [React Booster
 Kit](https://github.com/spartansystems/booster-kit-react).
 
+## Requirements
+
+[Yarn](https://github.com/yarnpkg/yarn)
+
+```bash
+# via homebrew
+brew install yarn
+```
+
 ## Features
 
 Nothing yet!
@@ -48,4 +57,3 @@ yarn run test -- --watch
 # start the storybook server
 yarn start
 ```
-
