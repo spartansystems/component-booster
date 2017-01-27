@@ -10,7 +10,7 @@ Nothing yet!
 
 ## Roadmap
 
-The goal is to be able to npm install this package and have access to all the
+The goal is to be able to yarn install this package and have access to all the
 components here through some simple generator scripts, inspired by [Thoughtbot's
 wonderful Refills library](https://github.com/thoughtbot/refills)
 
@@ -49,3 +49,7 @@ yarn run test -- --watch
 yarn start
 ```
 
+## Component Markup Guidelines
+
+To standardize the way are components are created for maximum reusability, try and stick as close to the following list
+of recommendations when creating and contributing a new component to the component library.
