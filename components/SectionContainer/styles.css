@@ -1,9 +1,9 @@
 /* Content Container Styles */
 .container {
-  lost-center: containerWidth;
+  width: 80%;
   display: inherit;
   margin: 0 auto;
-  padding: 0 containerPadding;
+  padding: 0 3.75rem;
   float: none;
 }
 
@@ -37,6 +37,6 @@
 .black {
   background: black;
 }
-.moireOne {
-  background: red;
+.gray {
+  background: gray;
 }

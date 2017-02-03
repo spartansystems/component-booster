@@ -32,6 +32,11 @@ const props = {
   ]
 }
 
+const ParagraphStyles = {
+  width: 'auto',
+  border: '1px solid gray'
+}
+
 storiesOf('SectionFullWidth', module)
   .addDecorator(withKnobs)
   .add('with props', () => {
@@ -45,9 +50,9 @@ storiesOf('SectionFullWidth', module)
         sectionMargin={select('Does this section need margins before and/or after the padding?',
           props.sectionMargin, props.sectionMargin[0])}
       >
-        <p>I am placeholder content!</p>
-        <p>I am placeholder content!</p>
-        <p>I am placeholder content!</p>
+        <p style={ParagraphStyles}>I am placeholder content!</p>
+        <p style={ParagraphStyles}>I am placeholder content!</p>
+        <p style={ParagraphStyles}>I am placeholder content!</p>
       </SectionFullWidth>
       // </WithNotes>
     )
