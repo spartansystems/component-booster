@@ -12,7 +12,7 @@
 .flexCol {
   composes: boxModel;
   display: flex;
-  flex-direction: col;
+  flex-direction: column;
   flex-wrap: nowrap;
   flex-flow: center;
   align-items: center;
@@ -35,9 +35,6 @@
 }
 .black {
   background: black;
-}
-.moireOne {
-  background: red;
 }
 
 /* Section Padding */

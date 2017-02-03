@@ -1,11 +1,11 @@
 /* @flow */
 import React from 'react'
-import styles from './styles'
+import styles from './styles.css'
 
 type Props = {
   customClass: string,
   boxModel: 'boxDefault' | 'flexCol' | 'flexRow',
-  bg: 'bgDefault' | 'white' | 'black' | 'moireOne',
+  bg: 'bgDefault' | 'white' | 'black',
   sectionPadding: 'paddingDefault' | 'paddingTrue' | 'paddingFalse',
   sectionMargin: 'marginDefault' | 'marginTrue' | 'marginTop' | 'marginBottom',
   children: any
