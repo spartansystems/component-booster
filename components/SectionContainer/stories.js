@@ -24,7 +24,7 @@ const props = {
 
 const PlaceholderStyles = {
   width: '100%',
-  height: '2rem',
+  height: 'auto',
   margin: '0 auto',
   padding: '0 0',
   float: 'left',
