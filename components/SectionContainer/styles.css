@@ -1,0 +1,42 @@
+/* Content Container Styles */
+.container {
+  lost-center: containerWidth;
+  display: inherit;
+  margin: 0 auto;
+  padding: 0 containerPadding;
+  float: none;
+}
+
+/* Box Model Settings */
+.boxDefault {
+  display: block;
+  float: left;
+}
+.flexCol {
+  display: flex;
+  flex-direction: col;
+  flex-wrap: nowrap;
+  flex-flow: center;
+  align-items: center;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: center;
+  align-items: center;
+}
+
+/* Section BG */
+.bgDefault {
+  background: transparent;
+}
+.white {
+  background: white;
+}
+.black {
+  background: black;
+}
+.moireOne {
+  background: red;
+}
